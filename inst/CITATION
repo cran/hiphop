@@ -1,0 +1,41 @@
+year <- sub("-.*", "", meta$Date)
+note <- sprintf("R package version %s", meta$Version)
+
+bref <- bibentry(bibtype = "Article",
+  title        = "HIPHOP: improved paternity assignment among close relatives using a simple exclusion method for biallelic markers",
+  author       = c(person(given = "Andrew",
+                          family = "Cockburn"),
+                   person(given = "Joshua V.",
+                          family = "Penalba"),
+                   person(given = "Damina",
+                          family = "Jaccoud"),
+                   person(given = "Andrzej ",
+                          family = "Kilian"),
+                   person(given = "Lyanne",
+                          family = "Brouwer"),
+                  person(given = "Michael C.",
+                          family = "Double"),
+                  person(given = "Lyanne",
+                          family = "Brouwer"),
+                  person(given = "Nicolas",
+                          family = "Margraf"),
+                  person(given = "Helen L.",
+                          family = "Osmond"),
+                  person(given = "Martijn",
+                        family = "van de Pol"),
+                  person(given = "Loeske E.B.",
+                          family = "Kruuk")),
+  journal      = "Molecular Ecology Resources",
+  year         = "2020",
+  doi          = "",
+  pages        = "",
+  volume       = "",
+  header       = "To cite 'hiphop' in publications please use:",
+  textVersion  =
+       paste("Cockburn, A., Penalba, J.V.,Jaccoud, D.,Kilian, A., Brouwer, L.,",
+       "Double, M.C., Margraf, N., Osmond, H.L., van de Pol, M. and",
+       "Kruuk, L.E.B. (in revision). HIPHOP: improved paternity assignment among",
+       "close relatives using a simple exclusion method for biallelic markers.",
+       "Molecular Ecology Resources")
+)
+
